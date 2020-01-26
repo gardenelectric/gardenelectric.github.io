@@ -19,21 +19,35 @@
       }
       header {
         display: flex;
+        height: 33vh;
       }
-      iframe {
-        border: 0px none;
+      header iframe {
+        height: 33vh;
         width: 50vw;
-        height: 50vh;
       }
       main {
         display: flex;
-        height: 50vh;
+        height: 64vh;
       }
-      h3 {
-        text-align: center;
+      main iframe {
+        height: 64vh;
+        width: 50vw;
+      }
+      iframe {
+        border: 0px none;
+      }
+      .info-bar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         margin: 1vw 0;
+        font-size: calc(10px + 1vw);
       }
     </style>
+    <script
+      src="https://kit.fontawesome.com/2ad593eb51.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-156594971-1"
@@ -54,10 +68,26 @@
         allowfullscreen
       ></iframe>
       <iframe
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/959734816&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/959734816&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"
       ></iframe>
     </header>
-    <h3>🌼 see Garden Electric in bloom 🌺</h3>
+    <div class="info-bar">
+      <a href="https://www.instagram.com/gardenelectricmusic">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/Garden-Electric-117921712945589">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <span>
+        🌼 see Garden Electric in bloom 🌺
+      </span>
+      <a href="https://soundcloud.com/gardenelectric/sets/garden-electric">
+        <i class="fab fa-soundcloud"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UChS_StPKR2fuUCbXhtNcr5A">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
     <main>
       <iframe
         src="https://calendar.google.com/calendar/b/3/embed?src=Z2oxbGExbjNwYzZpamFxYzg1MTYwM21vNzhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;showTz=0&amp;showTitle=0&amp;showPrint=0&amp;mode=AGENDA&amp;showTabs=0&amp;showCalendars=0"
